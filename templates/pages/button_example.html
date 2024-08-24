@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Page - Button Example</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+    <div class="row">
+        <div class="col-12 m-3"><h1>Button Example</h1></div>
+    </div>
+    <main>
+        <div class="row m-2">
+            <div class="col-12"></div>
+                <input class="form-control m-2 col-5" type="number" id="number1" placeholder="Number 1">
+                <input class="form-control m-2 col-5" type="number" id="number2" placeholder="Number 2">
+                <button class="btn btn-primary m-2" onclick="sumNumbers()">Sum</button>
+            </div>
+            <div class="card-title m-2" id="result">0</div>
+        </div>
+    </main>
+
+    <!-- The JS scripts are added to the bottom of the body -->  
+    <!-- You may EDIT the JS script -->
+    <script type="module" src="{{ url_for('static', filename='js/button_example.js')}}"></script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
