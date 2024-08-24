@@ -48,7 +48,7 @@ If running from Mac/Linux, make sure that the sh file has permission to execute.
 chmod +x run_mac.sh
 ```
 
-Run wither run_mac or run_win based on your system. Linux users should use run_mac.
+Run with either run_mac or run_win based on your system. Linux users should use run_mac.
 ```
 ./run_mac.sh
 {Mac}
